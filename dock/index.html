@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bible Dock</title>
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script defer src="dock.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>📖 Bible Control Panel</h1>
+    <label>Book:
+      <select id="book"></select>
+    </label>
+    <label>Chapter:
+      <select id="chapter"></select>
+    </label>
+    <label>Start Verse:
+      <select id="startVerse"></select>
+    </label>
+    <label>End Verse:
+      <select id="endVerse"></select>
+    </label>
+    <button onclick="updateDisplay()">Show Verses</button>
+  </div>
+</body>
+</html>
